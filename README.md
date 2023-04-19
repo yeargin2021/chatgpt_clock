@@ -7,13 +7,16 @@ However, you can try using an alternative tool called pyinstaller to build your 
 Here are the steps to create an app using pyinstaller:
 
 Install pyinstaller: You can install pyinstaller using pip. Open a terminal and type the following command:
-Copy code
-pip install pyinstaller
+
+```pip install pyinstaller```
+
 Build the app: To build the app, open a terminal and navigate to the directory where your Python script is located. Then type the following command:
 css
-Copy code
-pyinstaller --onefile my_script.py
+
+```pyinstaller --onefile my_script.py```
+
 Replace 'my_script.py' with the name of your Python script. The --onefile option specifies that you want to create a single executable file for your app.
 
 Locate the app: Once the build process is complete, you will find a 'dist' folder in the same directory as your Python script. Inside the 'dist' folder, you will find the app file.
+
 That's it! You have successfully created a Mac OS app from your Python script using pyinstaller.
